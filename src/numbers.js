@@ -1,46 +1,63 @@
 function add (a, b) {
-  // your code here
+  let total=a+b;
+  return total;
 }
 
 function subtract (a, b) {
-  // your code here
+  let total=a-b;
+  return total;
 }
 
 function multiply (a, b) {
-  // your code here
+  let total=a*b;
+  return total;
 }
 
 function divide (a, b) {
-  // your code here
+  let total=a/b;
+  return total;
 }
 
 function power (a, b) {
-  // your code here
+  let total=a**b;
+  return total;
 }
 
 function round (a) {
-  // your code here
+  let x= Math.round(a);
+  return x;
 }
 
 function roundUp (a) {
-  // your code here
+  let x= Math.ceil(a);
+  return x;
 }
 
 function roundDown (a) {
-  // your code here
+  let x= Math.floor(a);
+  return x;
 }
 
 function absolute (a) {
-  // your code here
+  let x= Math.abs(a);
+  return x;
 }
 
 function quotient (a, b) {
-  // your code here
+  let x = a/b;
+  if(x<0){
+  return Math.ceil(x);
 }
+    return Math.floor(x);
+  }
 
 function remainder (a, b) {
-  // your code here
+  let x = a%b;
+  if(x<0){
+  return Math.ceil(x);
 }
+    return Math.floor(x);
+  }
 
 module.exports = {
   add,
